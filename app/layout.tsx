@@ -7,6 +7,10 @@ import { ConvexClientProvider } from "@/components/providers/convex-provider";
 
 const inter = Inter({ subsets: ['latin'] })
 
+export type ReactChildren = {
+  children: React.ReactNode
+}
+
 export const metadata: Metadata = {
   title: 'Notion clone',
   description: 'The connected workspace where better, faster and work happens.',
